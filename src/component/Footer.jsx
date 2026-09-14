@@ -1,5 +1,12 @@
-function Footer(){
-    return <h1>Footer</h1>
+function Footer() {
+    return (
+        <footer className="py-2 mt-2 bg-white">
+            <div className="max-w-7xl mx-auto px-4 text-center">
+                <p className="text-sm">© 2026 BlogVerse. All Rigths Reserved</p>
+            </div>
+
+        </footer>
+    )
 }
 
 export default Footer;
